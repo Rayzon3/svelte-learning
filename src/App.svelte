@@ -1,9 +1,11 @@
 <script>
 	const name = "Asuna"
+	const despcription = "<b>Is best girl</b>"
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Hello { name }!</h1>
+<div>{ @html despcription }</div>
 </main>
 
 <style>
